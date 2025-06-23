@@ -1,0 +1,58 @@
+# Pentesting Tools Installation Commands
+
+# 1. Nmap – Network mapper & port scanner
+sudo pacman -S nmap
+
+# 2. Netdiscover – ARP-based network scanner
+sudo pacman -S netdiscover
+
+# 3. Airgeddon – Wi‑Fi auditing suite (from AUR)
+yay -S airgeddon
+
+# 4. Bettercap – MITM & network attack framework
+sudo pacman -S bettercap
+
+# 5. Wireshark (Qt GUI) – Network protocol analyzer
+sudo pacman -S wireshark-qt
+
+# 6. Proxychains-ng – Route tools through TOR
+sudo pacman -S proxychains-ng
+
+# 7. UFW – Simple firewall
+sudo pacman -S ufw
+
+# 8. rkhunter – Rootkit detection
+sudo pacman -S rkhunter
+
+# 9. Aircrack-ng – Wi‑Fi password cracking suite
+sudo pacman -S aircrack-ng
+
+# 10. Masscan – High-speed port scanner
+sudo pacman -S masscan
+
+# 11. Tcpdump – Command-line packet sniffer
+sudo pacman -S tcpdump
+
+# 12. John the Ripper – Password cracker
+sudo pacman -S john
+
+# 13. Hydra – Parallelized login cracker
+sudo pacman -S hydra
+
+# 14. Hashcat – GPU-accelerated password recovery
+sudo pacman -S hashcat
+
+# 15. SQLite Browser – SQLite DB GUI
+sudo pacman -S sqlitebrowser
+
+# 16. Nikto – Web server scanner
+sudo pacman -S nikto
+
+---
+# Notes:
+# - Use 'pacman' for official repo tools.
+# - Use 'yay -S <package>' for AUR tools like airgeddon.
+# - You may need to run 'sudo pacman -Syu' before installing.
+# - Example to install all at once:
+#   sudo pacman -S nmap netdiscover bettercap wireshark-qt proxychains-ng ufw rkhunter aircrack-ng masscan tcpdump john hydra hashcat sqlitebrowser nikto
+#   yay -S airgeddon
