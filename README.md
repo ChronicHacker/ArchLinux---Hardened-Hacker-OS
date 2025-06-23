@@ -1,39 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>ArchLinux - Hardened Hacker OS</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      max-width: 960px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #111;
-      color: #f4f4f4;
-    }
-    code, pre {
-      background: #222;
-      color: #0f0;
-      padding: 4px 6px;
-      border-radius: 4px;
-      font-family: "Courier New", monospace;
-    }
-    h1, h2, h3 {
-      color: #00ffcc;
-    }
-    ul {
-      list-style-type: square;
-    }
-    blockquote {
-      border-left: 4px solid #00ffcc;
-      padding-left: 10px;
-      margin-left: 0;
-      color: #ccc;
-    }
-  </style>
-</head>
+
 <body>
 
 <h1>ArchLinux - Hardened Hacker OS</h1>
