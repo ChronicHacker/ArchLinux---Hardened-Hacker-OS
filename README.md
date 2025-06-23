@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
+  <meta charset="UTF-8">
+  <title>ArchLinux - Hardened Hacker OS</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #111;
+      color: #f4f4f4;
+    }
+    code, pre {
+      background: #222;
+      color: #0f0;
+      padding: 4px 6px;
+      border-radius: 4px;
+      font-family: "Courier New", monospace;
+    }
+    h1, h2, h3 {
+      color: #00ffcc;
+    }
+    ul {
+      list-style-type: square;
+    }
+    blockquote {
+      border-left: 4px solid #00ffcc;
+      padding-left: 10px;
+      margin-left: 0;
+      color: #ccc;
+    }
+  </style>
+</head>
 <body>
 
 <h1>ArchLinux - Hardened Hacker OS</h1>
-<p><strong>A step-by-step guide to build your own encrypted, secure, and hacker-ready operating system using Arch Linux</strong></p>
+<p><strong>A fully encrypted, privacy-focused, penetration testing OS built on Arch Linux</strong></p>
 <blockquote><em>"Break. Build. Blaze new trails."</em></blockquote>
 
 <hr>
 
 <h2>🧠 What This Is</h2>
-<p>This guide walks you through installing a hardened version of Arch Linux that prioritizes security, privacy, and hacker readiness. You’ll be doing everything manually, with no scripts. Every step is typed out exactly as it should be entered into the terminal. Suitable for:</p>
+<p>This is a fully manual, script-free walkthrough that transforms a basic Arch Linux installation into a secure, hardened hacker operating system. Every step is spelled out in exact detail with real terminal commands. No shortcuts. No assumptions.</p>
+
+<p><strong>This OS is designed for:</strong></p>
 <ul>
-  <li>Ethical hackers & penetration testers</li>
-  <li>Privacy advocates</li>
-  <li>Power users who want full control</li>
+  <li>🛡 Ethical hackers and pentesters</li>
+  <li>🕵️ Privacy-first users and digital minimalists</li>
+  <li>🧠 Learners who want to understand every byte of their system</li>
 </ul>
 
-<p>You will set up:</p>
+<p><strong>This guide includes:</strong></p>
 <ul>
-  <li>✅ Full disk encryption using LUKS and LVM</li>
-  <li>✅ A lightweight, fast KDE desktop</li>
-  <li>✅ Encrypted DNS using <code>dnscrypt-proxy</code></li>
-  <li>✅ WireGuard VPN (choose a no-logs provider)</li>
-  <li>✅ TOR and proxychains for anonymous routing</li>
-  <li>✅ Hardened Firefox via <a href="https://github.com/arkenfox/user.js" target="_blank">arkenfox/user.js</a></li>
-  <li>✅ Preinstalled hacking tools like <code>nmap</code>, <code>netdiscover</code>, <code>airgeddon</code>, <code>wireshark</code>, <code>bettercap</code></li>
+  <li>✅ Full disk encryption (LUKS + LVM)</li>
+  <li>✅ KDE Plasma desktop</li>
+  <li>✅ WireGuard VPN (with a no-logs provider)</li>
+  <li>✅ Encrypted DNS with <code>dnscrypt-proxy</code></li>
+  <li>✅ TOR + proxychains routing</li>
+  <li>✅ Hardened Firefox (<a href="https://github.com/arkenfox/user.js" target="_blank">arkenfox</a>)</li>
+  <li>✅ Hacking tools like <code>nmap</code>, <code>netdiscover</code>, <code>airgeddon</code>, <code>wireshark</code>, <code>bettercap</code>, etc.</li>
 </ul>
 
-<p>📌 <strong>NOTE:</strong> This is not a script-based walkthrough. You will manually type each command and understand what it does.</p>
+<p>Whether you're building a CTF machine, a red team laptop, or just your ideal digital fortress — this is your foundation.</p>
 
 <hr>
 
-<h2>📁 Coming Up Next</h2>
-<p>Phase-by-phase breakdown with typed instructions will follow.</p>
-
+<h2>📋 What You’ll Need</h2>
 <ul>
-  <li>Phase 0: Prerequisites & Tools</li>
-  <li>Phase 1: Boot & Network Setup</li>
-  <li>Phase 2: Disk Partitioning + LUKS Encryption (Manual)</li>
-  <li>Phase 3: Base Arch Install</li>
-  <li>Phase 4: KDE + Network Manager</li>
-  <li>Phase 5: VPN, DNS, TOR</li>
-  <li>Phase 6: Hacking Tools & Hardening</li>
-  <li>Phase 7: Final Setup & Reboot</li>
+  <li>A UEFI-based PC or laptop with 64-bit CPU</li>
+  <li>At least 25 GB free space on the target drive</li>
+  <li>An 8GB+ USB drive for the Arch ISO</li>
+  <li>Internet connection (Wi-Fi or Ethernet)</li>
 </ul>
 
-<p>Start with Phase 0.</p>
+<p>Once you have your stuff ready, proceed to <strong>Phase 0: Preparing Your Tools</strong>.</p>
 
 </body>
 </html>
